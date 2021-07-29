@@ -6,7 +6,7 @@ namespace CLearningApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello Git!");
+            Console.WriteLine("Hello Git, give me merge conflict");
             Console.WriteLine("I'm learning you");
         }
     }
