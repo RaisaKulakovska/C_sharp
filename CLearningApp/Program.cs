@@ -7,6 +7,7 @@ namespace CLearningApp
         static void Main(string[] args)
         {
             Console.WriteLine("Hello Git!");
+            Console.WriteLine("I'm learning you");
         }
     }
 }
