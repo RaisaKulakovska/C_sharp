@@ -10,5 +10,5 @@ namespace CLearningApp
             Console.WriteLine("Master branch");
             Console.WriteLine("merge conflict");
         }
-    }
+    }   
 }
