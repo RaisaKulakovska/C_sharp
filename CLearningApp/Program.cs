@@ -8,6 +8,7 @@ namespace CLearningApp
         {
             Console.WriteLine("Hello World!");
             Console.WriteLine("Master branch");
+            Console.WriteLine("merge conflict");
         }
     }
 }
