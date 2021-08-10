@@ -1,4 +1,12 @@
-C:\Users\rkula\Desktop\CLearningApp\CLearningApp\obj\Debug\netcoreapp3.1\CLearningApp.csproj.AssemblyReference.cache
 C:\Users\rkula\Desktop\CLearningApp\CLearningApp\obj\Debug\netcoreapp3.1\CLearningApp.AssemblyInfoInputs.cache
 C:\Users\rkula\Desktop\CLearningApp\CLearningApp\obj\Debug\netcoreapp3.1\CLearningApp.AssemblyInfo.cs
 C:\Users\rkula\Desktop\CLearningApp\CLearningApp\obj\Debug\netcoreapp3.1\CLearningApp.csproj.CoreCompileInputs.cache
+C:\Users\rkula\Desktop\CLearningApp\CLearningApp\bin\Debug\netcoreapp3.1\CLearningApp.exe
+C:\Users\rkula\Desktop\CLearningApp\CLearningApp\bin\Debug\netcoreapp3.1\CLearningApp.deps.json
+C:\Users\rkula\Desktop\CLearningApp\CLearningApp\bin\Debug\netcoreapp3.1\CLearningApp.runtimeconfig.json
+C:\Users\rkula\Desktop\CLearningApp\CLearningApp\bin\Debug\netcoreapp3.1\CLearningApp.runtimeconfig.dev.json
+C:\Users\rkula\Desktop\CLearningApp\CLearningApp\bin\Debug\netcoreapp3.1\CLearningApp.dll
+C:\Users\rkula\Desktop\CLearningApp\CLearningApp\bin\Debug\netcoreapp3.1\CLearningApp.pdb
+C:\Users\rkula\Desktop\CLearningApp\CLearningApp\obj\Debug\netcoreapp3.1\CLearningApp.dll
+C:\Users\rkula\Desktop\CLearningApp\CLearningApp\obj\Debug\netcoreapp3.1\CLearningApp.pdb
+C:\Users\rkula\Desktop\CLearningApp\CLearningApp\obj\Debug\netcoreapp3.1\CLearningApp.genruntimeconfig.cache

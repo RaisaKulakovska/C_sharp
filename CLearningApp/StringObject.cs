@@ -52,6 +52,14 @@ namespace CLearningApp
             tomas.YearSalary = 150000;
             tomas.Sex = true;
 
+            Employee t = new Employee();
+            tomas.Name = "Tom";
+            tomas.Email = "tomas@office.com";
+            tomas.Job = "QA";
+            tomas.Title = "junior";
+            tomas.YearSalary = 150000;
+
+            tomas.Sex = true;
             //3 Employee
             Employee ann = new Employee();
             ann.Name = "Ann";
@@ -61,27 +69,25 @@ namespace CLearningApp
             ann.YearSalary = 450000;
             ann.Sex = false;
 
-            Console.WriteLine("tom == tomas: ", tom == tomas);
-            Console.WriteLine("tom Equals tomas: ", tom.Equals(tomas));
+            Console.WriteLine(tom == tomas);
+            Console.WriteLine(t == tomas);
+            Console.WriteLine(tom);
+            Console.WriteLine(tom.Equals(tomas));
+            Console.WriteLine(t.Equals(tomas));
 
             tom.print();
             ann.printAll();
+
+            Enterpreneur kat = new Enterpreneur();
+            
+
         }
         //Object's methods: ToString, GetHeshCode, GetType, Equals
         public class Enterpreneur : Employee
         {
-            public string agreementNumber { get; private set; }
+            public string agreementNumber { get; set; }
 
-            Enterpreneur enterprNick = new Enterpreneur();
-            public float nickSalary = enterprNick.YearSalary;
-            nickSalary = 500000;
-            Console.WriteLine(nickSalary.ToString());
-            Console.WriteLine(enterprNick.ToString());
 
-            Enterpreneur enterprMike = new Enterpreneur();
-            enterprMike.Name = "Mike";
-
-            enterprMike.GetType();
         }
     }        
 }
