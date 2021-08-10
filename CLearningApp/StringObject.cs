@@ -6,28 +6,28 @@ namespace CLearningApp
 {    
     public class Employee
     {
-        public string name;
-        public string email;
-        public string job;
-        public string title;
-        public float yearSalary;
-        public bool sex; //true if male, false if female
+        public string Name;
+        public string Email;
+        public string Job;
+        public string Title;
+        public float YearSalary;
+        public bool Sex; //true if male, false if female
 
-        private float countMonthSalary()
+        protected float countMonthSalary()
         {
-            return yearSalary / 12;
+            return YearSalary / 12;
         }
 
         //Print Name, Email, Sex
-        private void print()
+        public void print()
         {
-            Console.WriteLine($"Name: {1}, Email: {2}, Sex: {3}", name, email, sex);
+            Console.WriteLine($"Name: {1}, Email: {2}, Sex: {3}", Name, Email, Sex);
         }
 
         //Print all fields: name, email, job, title, year salary, sex
-        private void printAll()
+        public void printAll()
         {
-            Console.WriteLine($"Name: {1}, Email: {2}, Job: {3}, Title: {4}, Year salary: {5}, Sex: {6}", name, email, job, title, yearSalary, sex);
+            Console.WriteLine($"Name: {1}, Email: {2}, Job: {3}, Title: {4}, Year salary: {5}, Sex: {6}", Name, Email, Job, Title, YearSalary, Sex);
         }
     }
     public class Program1
@@ -36,41 +36,52 @@ namespace CLearningApp
         {
             //1 Employee
             Employee tom = new Employee();
-            tom.name = "Tom";
-            tom.email = "tom@office.com";
-            tom.job = "Manager";
-            tom.title = "middle";
-            tom.yearSalary = 330000;
-            tom.sex = true;
+            tom.Name = "Tom";
+            tom.Email = "tom@office.com";
+            tom.Job = "Manager";
+            tom.Title = "middle";
+            tom.YearSalary = 330000;
+            tom.Sex = true;
 
             //2 Employee
             Employee tomas = new Employee();
-            tomas.name = "Tom";
-            tomas.email = "tomas@office.com";
-            tomas.job = "QA";
-            tomas.title = "junior";
-            tomas.yearSalary = 150000;
-            tomas.sex = true;
+            tomas.Name = "Tom";
+            tomas.Email = "tomas@office.com";
+            tomas.Job = "QA";
+            tomas.Title = "junior";
+            tomas.YearSalary = 150000;
+            tomas.Sex = true;
 
             //3 Employee
             Employee ann = new Employee();
-            ann.name = "Ann";
-            ann.email = "ann@office.com";
-            ann.job = "hr";
-            ann.title = "senior";
-            ann.yearSalary = 450000;
-            ann.sex = false;
+            ann.Name = "Ann";
+            ann.Email = "ann@office.com";
+            ann.Job = "hr";
+            ann.Title = "senior";
+            ann.YearSalary = 450000;
+            ann.Sex = false;
 
             Console.WriteLine("tom == tomas: ", tom == tomas);
             Console.WriteLine("tom Equals tomas: ", tom.Equals(tomas));
-        }
 
-        //4 Employee - enterpreneur
-        public class Enterpreneur : Employee
-        {            
-            public string agreementNumber { get; private set; }
-            Enterpreneur enterpreneur1 = new Enterpreneur();
-            Enterpreneur enterpreneur2 = new Enterpreneur();
+            tom.print();
+            ann.printAll();
         }
-    }
+        //Object's methods: ToString, GetHeshCode, GetType, Equals
+        public class Enterpreneur : Employee
+        {
+            public string agreementNumber { get; private set; }
+
+            Enterpreneur enterprNick = new Enterpreneur();
+            public float nickSalary = enterprNick.YearSalary;
+            nickSalary = 500000;
+            Console.WriteLine(nickSalary.ToString());
+            Console.WriteLine(enterprNick.ToString());
+
+            Enterpreneur enterprMike = new Enterpreneur();
+            enterprMike.Name = "Mike";
+
+            enterprMike.GetType();
+        }
+    }        
 }
