@@ -19,13 +19,13 @@ namespace CLearningApp
         }
 
         //Print Name, Email, Sex
-        public void print()
+        public void Print()
         {
             Console.WriteLine($"Name: {1}, Email: {2}, Sex: {3}", Name, Email, Sex);
         }
 
         //Print all fields: name, email, job, title, year salary, sex
-        public void printAll()
+        public void PrintAll()
         {
             Console.WriteLine($"Name: {1}, Email: {2}, Job: {3}, Title: {4}, Year salary: {5}, Sex: {6}", Name, Email, Job, Title, YearSalary, Sex);
         }

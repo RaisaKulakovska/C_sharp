@@ -8,8 +8,8 @@ namespace CLearningApp
     {
         static void Main(string[] args)
         {
-            tom.print();
-            ann.printAll();
+            tom.Print();
+            ann.PrintAll();
         }
     }
 }
