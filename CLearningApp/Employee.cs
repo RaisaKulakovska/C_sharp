@@ -6,69 +6,60 @@ namespace CLearningApp
 {
     public class Employee
     {
-        public string Name;
-        public string Email;
-        public string Job;
-        public string Title;
-        public float YearSalary;
-        public bool Sex; //true if male, false if female
+        private string name;
+        private string email;
+        private string job;
+        private string title;
+        private float yearSalary;
+        private bool sex; //true if male, false if female
 
+        public Employee(string name, string email, string job, string title, float yearSalary, bool sex)
+        {
+            this.name = name;
+            this.email = email;
+            this.job = job;
+            this.title = title;
+            this.yearSalary = yearSalary;
+            this.sex = sex;
+        }
+        public Employee()
+        {
+
+        }
         protected float countMonthSalary()
         {
-            return YearSalary / 12;
+            return yearSalary / 12;
         }
 
         //Print Name, Email, Sex
         public void Print()
         {
-            Console.WriteLine($"Name: {1}, Email: {2}, Sex: {3}", Name, Email, Sex);
+            Console.WriteLine($"Name: {1}, Email: {2}, Sex: {3}", name, email, sex);
         }
 
         //Print all fields: name, email, job, title, year salary, sex
         public void PrintAll()
         {
-            Console.WriteLine($"Name: {1}, Email: {2}, Job: {3}, Title: {4}, Year salary: {5}, Sex: {6}", Name, Email, Job, Title, YearSalary, Sex);
+            Console.WriteLine($"Name: {1}, Email: {2}, Job: {3}, Title: {4}, Year salary: {5}, Sex: {6}", name, email, job, title, yearSalary, sex);
         }
-    
-        //1 Employee
-        Employee tom = new Employee();
-        tom.Name = "Tom";
-        tom.Email = "tom@office.com";
-        tom.Job = "Manager";
-        tom.Title = "middle";
-        tom.YearSalary = 330000;
-        tom.Sex = true;
 
-        //2 Employee
-         Employee tomas = new Employee();
-        tomas.Name = "Tom";
-        tomas.Email = "tomas@office.com";
-        tomas.Job = "QA";
-        tomas.Title = "junior";
-        tomas.YearSalary = 150000;
-        tomas.Sex = true;
-
-        Employee t = new Employee();
-        tomas.Name = "Tom";
-        tomas.Email = "tomas@office.com";
-        tomas.Job = "QA";
-        tomas.Title = "junior";
-        tomas.YearSalary = 150000;
-        tomas.Sex = true;
-
-        //3 Employee
-        Employee ann = new Employee();
-        ann.Name = "Ann";
-        ann.Email = "ann@office.com";
-        ann.Job = "hr";
-        ann.Title = "senior";
-        ann.YearSalary = 450000;
-        ann.Sex = false;
-
-        Console.WriteLine(tom == tomas);
-        Console.WriteLine(t == tomas);
-        Console.WriteLine(tom);
-        Console.WriteLine(tom.Equals(tomas));
-        Console.WriteLine(t.Equals(tomas));
+        public override bool Equals(Object obj)
+        {
+            // Check for null and compare run - time types.
+            if ((obj == null) || !this.GetType().Equals(obj.GetType()))
+            {
+                return false;
+            }
+            else
+            {
+                Employee e = (Employee)obj;
+                return (name == e.name) &&
+                        (email == e.email) &&
+                        (job == e.job) &&
+                        (title == e.title) &&
+                        (yearSalary == e.yearSalary) &&
+                        (sex == e.sex);
+            }
+        }
     }
 }

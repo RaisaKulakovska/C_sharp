@@ -7,8 +7,14 @@ namespace CLearningApp
     public class Enterpreneur : Employee
     {
         //Object's methods: ToString, GetHeshCode, GetType, Equals
-        public string agreementNumber { get; set; }
-        Enterpreneur kat = new Enterpreneur();
+        private int agreementNumber;
+        public int GetAgreementNumber()
+        {            
+             return agreementNumber;
+        }
+        public void SetAgreementNumber(int value)
+        {            
+            agreementNumber = value;            
+        }
     }
-    
 }

@@ -10,3 +10,4 @@ C:\Users\rkula\Desktop\CLearningApp\CLearningApp\bin\Debug\netcoreapp3.1\CLearni
 C:\Users\rkula\Desktop\CLearningApp\CLearningApp\obj\Debug\netcoreapp3.1\CLearningApp.dll
 C:\Users\rkula\Desktop\CLearningApp\CLearningApp\obj\Debug\netcoreapp3.1\CLearningApp.pdb
 C:\Users\rkula\Desktop\CLearningApp\CLearningApp\obj\Debug\netcoreapp3.1\CLearningApp.genruntimeconfig.cache
+C:\Users\rkula\Desktop\CLearningApp\CLearningApp\obj\Debug\netcoreapp3.1\CLearningApp.csproj.AssemblyReference.cache
