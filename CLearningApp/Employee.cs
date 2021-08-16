@@ -6,12 +6,12 @@ namespace CLearningApp
 {
     public class Employee
     {
-        private string name;
-        private string email;
-        private string job;
-        private string title;
-        private float yearSalary;
-        private bool sex; //true if male, false if female
+        protected string name;
+        protected string email;
+        protected string job;
+        protected string title;
+        protected float yearSalary;
+        protected bool sex; //true if male, false if female
 
         public Employee(string name, string email, string job, string title, float yearSalary, bool sex)
         {
@@ -24,7 +24,6 @@ namespace CLearningApp
         }
         public Employee()
         {
-
         }
         protected float countMonthSalary()
         {
@@ -52,14 +51,15 @@ namespace CLearningApp
             }
             else
             {
-                Employee e = (Employee)obj;
-                return (name == e.name) &&
-                        (email == e.email) &&
-                        (job == e.job) &&
-                        (title == e.title) &&
-                        (yearSalary == e.yearSalary) &&
-                        (sex == e.sex);
+                Employee emp = (Employee)obj;
+                return (name == emp.name) &&
+                        (email == emp.email) &&
+                        (job == emp.job) &&
+                        (title == emp.title) &&
+                        (yearSalary == emp.yearSalary) &&
+                        (sex == emp.sex);
             }
         }
+
     }
 }
