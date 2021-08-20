@@ -94,8 +94,7 @@ namespace CLearningApp
 
         public override string ToString()
         {
-            return String.Format("Enterpreneur({0}, {1}, {2}, {3}, {4}, {5}, {6})", 
-                name, email, job, title, yearSalary, sex, agreementNumber);
+            return String.Format($"Enterpreneur({name}, {email}, {job}, {title}, {yearSalary}, {sex}, {agreementNumber})");
         }
     }
 }

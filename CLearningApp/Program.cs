@@ -23,17 +23,18 @@ namespace CLearningApp
             Console.WriteLine(tom.Equals(tomas));
             
             Enterpreneur kat = new Enterpreneur("Kat", "kat@office.com", "hr", "senior", 450000, false, 15530);
-            Enterpreneur kat1 = new Enterpreneur("Kat", "kat@office.com", "hr", "senior", 450000, false, 15530);
+            Enterpreneur kat1 = new Enterpreneur("Kat1", "kat@office.com", "hr", "senior", 450000, false, 15530);
             Enterpreneur nick = new Enterpreneur("Nick", "nick@office.com", ".Net", "tranee", 170000, false, 16531);
 
             kat.Print();
 
             // Object's methods: ToString, GetHeshCode, GetType, Equals
-            Console.WriteLine(kat.Equals(kat1));
+            Console.WriteLine("Kat vs Kat1: "+ kat.Equals(kat1));
             Console.WriteLine(kat.Equals(nick));
-            Console.WriteLine(kat.ToString());            
+            Console.WriteLine(kat.ToString());
             Console.WriteLine(kat.GetName());            
-            Console.WriteLine(kat.GetHashCode()); 
+            Console.WriteLine(nick.GetHashCode()); 
+            Console.WriteLine(kat1.GetType()); 
         }
     }
 }

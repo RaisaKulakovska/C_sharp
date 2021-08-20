@@ -33,7 +33,7 @@ namespace CLearningApp
         //Print Name, Email, Sex
         public void Print()
         {
-            Console.WriteLine($"Name: {1}, Email: {2}, Sex: {3}", name, email, sex);
+            Console.WriteLine($"Name: {name}, Email: {email}, Sex: {sex}");
         }
 
         //Print all fields: name, email, job, title, year salary, sex
@@ -60,6 +60,5 @@ namespace CLearningApp
                         (sex == emp.sex);
             }
         }
-
     }
 }
