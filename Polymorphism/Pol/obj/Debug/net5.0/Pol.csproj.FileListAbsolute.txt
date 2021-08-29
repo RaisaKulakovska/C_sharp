@@ -1,0 +1,16 @@
+C:\Polymorphism\Pol\bin\Debug\net5.0\Pol.exe
+C:\Polymorphism\Pol\bin\Debug\net5.0\Pol.deps.json
+C:\Polymorphism\Pol\bin\Debug\net5.0\Pol.runtimeconfig.json
+C:\Polymorphism\Pol\bin\Debug\net5.0\Pol.runtimeconfig.dev.json
+C:\Polymorphism\Pol\bin\Debug\net5.0\Pol.dll
+C:\Polymorphism\Pol\bin\Debug\net5.0\ref\Pol.dll
+C:\Polymorphism\Pol\bin\Debug\net5.0\Pol.pdb
+C:\Polymorphism\Pol\obj\Debug\net5.0\Pol.csprojAssemblyReference.cache
+C:\Polymorphism\Pol\obj\Debug\net5.0\Pol.GeneratedMSBuildEditorConfig.editorconfig
+C:\Polymorphism\Pol\obj\Debug\net5.0\Pol.AssemblyInfoInputs.cache
+C:\Polymorphism\Pol\obj\Debug\net5.0\Pol.AssemblyInfo.cs
+C:\Polymorphism\Pol\obj\Debug\net5.0\Pol.csproj.CoreCompileInputs.cache
+C:\Polymorphism\Pol\obj\Debug\net5.0\Pol.dll
+C:\Polymorphism\Pol\obj\Debug\net5.0\ref\Pol.dll
+C:\Polymorphism\Pol\obj\Debug\net5.0\Pol.pdb
+C:\Polymorphism\Pol\obj\Debug\net5.0\Pol.genruntimeconfig.cache
