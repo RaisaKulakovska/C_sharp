@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "C9KAiORhOg+QlLIjeMxYwTVo/XO3f72hSqaGjCKxqTvy9lxg+vVNyB5i088lJ9NoOkEVVI5fwWlUZvn5kzaTAA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\rkula\\Desktop\\CLearningApp\\CLearningApp\\Polimorphism\\Polimorphism\\Polimorphism.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rkula\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.18\\microsoft.netcore.app.host.win-x64.3.1.18.nupkg.sha512"
+  ],
+  "logs": []
+}
