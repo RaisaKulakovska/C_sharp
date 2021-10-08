@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CLearningApp", "CLearningApp\CLearningApp.csproj", "{663291A1-D898-4D8B-B012-58799836FF70}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CLearningApp", "CLearningApp\CLearningApp.csproj", "{663291A1-D898-4D8B-B012-58799836FF70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Static", "Static\Static.csproj", "{4A4EA0CD-F327-4676-9458-2519D6025331}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{663291A1-D898-4D8B-B012-58799836FF70}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{663291A1-D898-4D8B-B012-58799836FF70}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{663291A1-D898-4D8B-B012-58799836FF70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A4EA0CD-F327-4676-9458-2519D6025331}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A4EA0CD-F327-4676-9458-2519D6025331}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A4EA0CD-F327-4676-9458-2519D6025331}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A4EA0CD-F327-4676-9458-2519D6025331}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

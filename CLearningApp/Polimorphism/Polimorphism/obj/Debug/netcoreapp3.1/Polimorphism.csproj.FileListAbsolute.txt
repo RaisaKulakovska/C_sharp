@@ -1,0 +1,12 @@
+C:\Users\rkula\Desktop\CLearningApp\CLearningApp\Polimorphism\Polimorphism\bin\Debug\netcoreapp3.1\Polimorphism.exe
+C:\Users\rkula\Desktop\CLearningApp\CLearningApp\Polimorphism\Polimorphism\bin\Debug\netcoreapp3.1\Polimorphism.deps.json
+C:\Users\rkula\Desktop\CLearningApp\CLearningApp\Polimorphism\Polimorphism\bin\Debug\netcoreapp3.1\Polimorphism.runtimeconfig.json
+C:\Users\rkula\Desktop\CLearningApp\CLearningApp\Polimorphism\Polimorphism\bin\Debug\netcoreapp3.1\Polimorphism.runtimeconfig.dev.json
+C:\Users\rkula\Desktop\CLearningApp\CLearningApp\Polimorphism\Polimorphism\bin\Debug\netcoreapp3.1\Polimorphism.dll
+C:\Users\rkula\Desktop\CLearningApp\CLearningApp\Polimorphism\Polimorphism\bin\Debug\netcoreapp3.1\Polimorphism.pdb
+C:\Users\rkula\Desktop\CLearningApp\CLearningApp\Polimorphism\Polimorphism\obj\Debug\netcoreapp3.1\Polimorphism.AssemblyInfoInputs.cache
+C:\Users\rkula\Desktop\CLearningApp\CLearningApp\Polimorphism\Polimorphism\obj\Debug\netcoreapp3.1\Polimorphism.AssemblyInfo.cs
+C:\Users\rkula\Desktop\CLearningApp\CLearningApp\Polimorphism\Polimorphism\obj\Debug\netcoreapp3.1\Polimorphism.csproj.CoreCompileInputs.cache
+C:\Users\rkula\Desktop\CLearningApp\CLearningApp\Polimorphism\Polimorphism\obj\Debug\netcoreapp3.1\Polimorphism.dll
+C:\Users\rkula\Desktop\CLearningApp\CLearningApp\Polimorphism\Polimorphism\obj\Debug\netcoreapp3.1\Polimorphism.pdb
+C:\Users\rkula\Desktop\CLearningApp\CLearningApp\Polimorphism\Polimorphism\obj\Debug\netcoreapp3.1\Polimorphism.genruntimeconfig.cache

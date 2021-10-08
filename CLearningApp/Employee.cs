@@ -42,6 +42,11 @@ namespace CLearningApp
             Console.WriteLine($"Name: {1}, Email: {2}, Job: {3}, Title: {4}, Year salary: {5}, Sex: {6}", name, email, job, title, yearSalary, sex);
         }
 
+        public string GetName()
+        {
+            return this.name;
+        }
+
         public override bool Equals(Object obj)
         {
             // Check for null and compare run - time types.
