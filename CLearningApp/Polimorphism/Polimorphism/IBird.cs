@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Polimorphism
 {
-    public interface IBird : IPrintable
+    public interface IBird 
     {
         void Move();
     }

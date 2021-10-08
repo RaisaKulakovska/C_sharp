@@ -4,6 +4,7 @@ namespace Polimorphism
 {
     class Program : BirdSkilsDemo
     {        
+        /*
         static void Main(string[] args)
         {
             BirdSkilsDemo  birdSkilsDemo = new BirdSkilsDemo();
@@ -22,6 +23,7 @@ namespace Polimorphism
             penguinLord.GetInfo();
             bigLord.GetWeith();
         }
+        */
         static void GetBird() { }
     }
 }

@@ -8,7 +8,7 @@ namespace Polimorphism
     {
         public int weight;
 
-        public BigPenguin(string name, int age, int weight) : base(name, age)
+        public BigPenguin(string name, int age, string move, int weight) : base(name, age, move)
         {            
             this.weight = weight;
         }

@@ -8,7 +8,7 @@ namespace Polimorphism
     {
         public string color;
 
-        public LittlePenguin(string name, int age, string color) : base(name, age, move)
+        public LittlePenguin(string name, int age, string move, string color) : base(name, age, move)
         {
             this.color = color;
         }

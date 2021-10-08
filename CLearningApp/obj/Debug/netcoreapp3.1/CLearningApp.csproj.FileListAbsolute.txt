@@ -17,3 +17,10 @@ C:\Users\rkula\OneDrive - Verint Systems Ltd\Desktop\CLearningApp\CLearningApp\o
 C:\Users\rkula\OneDrive - Verint Systems Ltd\Desktop\CLearningApp\CLearningApp\obj\Debug\netcoreapp3.1\CLearningApp.csproj.CoreCompileInputs.cache
 C:\Users\rkula\OneDrive - Verint Systems Ltd\Desktop\CLearningApp\CLearningApp\obj\Debug\netcoreapp3.1\CLearningApp.dll
 C:\Users\rkula\OneDrive - Verint Systems Ltd\Desktop\CLearningApp\CLearningApp\obj\Debug\netcoreapp3.1\CLearningApp.pdb
+C:\Users\rkula\OneDrive - Verint Systems Ltd\Desktop\CLearningApp\CLearningApp\bin\Debug\netcoreapp3.1\CLearningApp.exe
+C:\Users\rkula\OneDrive - Verint Systems Ltd\Desktop\CLearningApp\CLearningApp\bin\Debug\netcoreapp3.1\CLearningApp.deps.json
+C:\Users\rkula\OneDrive - Verint Systems Ltd\Desktop\CLearningApp\CLearningApp\bin\Debug\netcoreapp3.1\CLearningApp.runtimeconfig.json
+C:\Users\rkula\OneDrive - Verint Systems Ltd\Desktop\CLearningApp\CLearningApp\bin\Debug\netcoreapp3.1\CLearningApp.runtimeconfig.dev.json
+C:\Users\rkula\OneDrive - Verint Systems Ltd\Desktop\CLearningApp\CLearningApp\bin\Debug\netcoreapp3.1\CLearningApp.dll
+C:\Users\rkula\OneDrive - Verint Systems Ltd\Desktop\CLearningApp\CLearningApp\bin\Debug\netcoreapp3.1\CLearningApp.pdb
+C:\Users\rkula\OneDrive - Verint Systems Ltd\Desktop\CLearningApp\CLearningApp\obj\Debug\netcoreapp3.1\CLearningApp.genruntimeconfig.cache
