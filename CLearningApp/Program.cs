@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Text;
 
 namespace CLearningApp
@@ -10,9 +11,9 @@ namespace CLearningApp
         {
             // Employees:
             Employee tom = new Employee("Tom", "tom@office.com", "Manager", "middle", 330000, true);            
-            Employee tomas = new Employee("Tom", "tom@office.com", "Manager", "middle", 330000, true);            
+            Employee tomas = new Employee("Tomas", "tomas@office.com", "Manager", "middle", 330000, true);            
             Employee ann = new Employee("Ann", "ann@office.com", "hr", "senior", 450000, false);            
-            Employee t = new Employee("Tom", "tomas@office.com", "QA", "Junior", 150000, true);
+            Employee t = new Employee("t", "tomas@office.com", "QA", "Junior", 150000, true);
 
             Console.WriteLine(tom);
             tom.Print();
@@ -56,7 +57,38 @@ namespace CLearningApp
             foreach (KeyValuePair<string, string> keyValue in employees)
             {
                 Console.WriteLine(keyValue.Key + " - " + keyValue.Value);
-            }
+            }            
+
+            WriteCSV(kat);
+            WriteCSV(nick);
+            Enterpreneur kat2 = ReadCSV();
+            Console.WriteLine(kat2);
+        }
+
+        public const string FilePath = @"C:\CSVFiles\test.csv";        
+
+        public static void WriteCSV(Enterpreneur ent)
+        {
+            var file = File.OpenWrite(FilePath);
+            StreamWriter fileStream = new StreamWriter(file);
+            fileStream.WriteLine($"{ent.GetName()}, {ent.GetJob()}, {ent.GetEmail()}");
+            fileStream.Flush();
+            fileStream.Close();
+            file.Close();
+        }        
+
+        public static Enterpreneur ReadCSV()
+        {
+            var file = File.OpenRead(FilePath);
+            StreamReader fileStream = new StreamReader(file);
+            var textLine = fileStream.ReadLine();
+            var lineCollection = textLine.Split(new[] {','});
+            var name = lineCollection[0].Trim();
+            var job = lineCollection[1].Trim();
+            var email = lineCollection[2].Trim();
+            fileStream.Close();
+            file.Close();
+            return new Enterpreneur(name, email, job, "senior", 450000, false, 15530);
         }
     }
 }

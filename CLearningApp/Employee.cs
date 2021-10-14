@@ -64,6 +64,6 @@ namespace CLearningApp
                         (yearSalary == emp.yearSalary) &&
                         (sex == emp.sex);
             }
-        }
+        }        
     }
 }

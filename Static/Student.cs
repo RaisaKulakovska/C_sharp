@@ -52,5 +52,30 @@ namespace Static
             float averageGrade = (s1.grade + s2.grade + s3.grade) / 3;
             return averageGrade;
         }
+
+        public static void Comparer(Student a, Student b)
+        {
+            if (a.BetterStudent(b))
+            {
+                Console.WriteLine($"Student {a.GetName()} is better student than student {b.GetName()}");
+            }
+            else
+            {
+                Console.WriteLine($"Student {a.GetName()} isn't better student than student {b.GetName()}");
+            }
+        }
+
+        public static void NameLenthComparer(Student a, Student b)
+        {
+            int result = String.Compare(a.GetName(), b.GetName());
+            if (result < 0)
+            {
+                Console.WriteLine($"name {a.GetName()} is shorter than name {b.GetName()}");
+            }
+            else
+            {
+                Console.WriteLine($"name {a.GetName()} is not shorter than name {b.GetName()}");
+            }
+        }
     }
 }
