@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "3roOLCKF9ZDRPQHIwcFjwB732/E6Lics712gX2tW4CNLBMpiCS4Yytd4kZR57yvRAMqbk1SxtoMniihHoV5cQA==",
+  "dgSpecHash": "3+rZrh3HTIL14MwYlPouErj+niog8Ql+8Z5HYhDMTnS3nHj4vNWeuF3zH4D9FMOt2oBDo6gURdhTiVH9USeERw==",
   "success": true,
   "projectFilePath": "C:\\Users\\rkula\\OneDrive - Verint Systems Ltd\\Desktop\\CLearningApp\\CLearningApp\\CLearningApp.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\rkula\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\rkula\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
+    "C:\\Users\\rkula\\.nuget\\packages\\nunit\\3.13.2\\nunit.3.13.2.nupkg.sha512",
     "C:\\Users\\rkula\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.18\\microsoft.netcore.app.host.win-x64.3.1.18.nupkg.sha512"
   ],
   "logs": []
