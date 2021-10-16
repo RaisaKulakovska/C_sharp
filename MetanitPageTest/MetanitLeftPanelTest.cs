@@ -26,16 +26,17 @@ namespace MetanitPageTest
         {
             // Act
             metanitPageObject.SelectChapter();
+            metanitPageObject.WaitUntilPageLoaded();
             bool isRightUrl = metanitPageObject.IsRightUrl(url);
 
             // Assert
             Assert.True(isRightUrl, "Chapter isn't pressed, url is wrong");
         }    
 
-        [TearDown]
+        /*[TearDown]
         public void TearDown()
         {
             browser.Quit();
-        }
+        }*/
     }
 }
