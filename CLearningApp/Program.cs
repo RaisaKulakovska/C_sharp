@@ -63,6 +63,8 @@ namespace CLearningApp
             WriteCSV(nick);
             Enterpreneur kat2 = ReadCSV();
             Console.WriteLine(kat2);
+            Enterpreneur nick2 = ReadCSV();
+            Console.WriteLine(nick2);
         }
 
         public const string FilePath = @"C:\CSVFiles\test.csv";        
@@ -71,7 +73,6 @@ namespace CLearningApp
         {
             var file = File.OpenWrite(FilePath);
             StreamWriter fileStream = new StreamWriter(file);
-            fileStream.WriteLine($"{ent.GetName()}, {ent.GetJob()}, {ent.GetEmail()}");
             fileStream.WriteLine($"{ent.GetName()}, {ent.GetJob()}, {ent.GetEmail()}");
             fileStream.Flush();
             fileStream.Close();
