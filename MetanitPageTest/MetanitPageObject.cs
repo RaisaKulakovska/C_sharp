@@ -19,7 +19,7 @@ namespace MetanitPageTest
         // Placing XPathes into constants
         private const string CHAPTER_XPATH = "//span[@class='folder'  and text()='Глава 21. Работа с потоками и файловой системой']";
         private const string INNER_CHAPTER_XPATH = "//ul//a[text()='Работа с файлами. Классы File и FileInfo']";
-        
+
         // UI elements initialising
         private IWebElement Chapter => webDriver.FindElement(By.XPath(CHAPTER_XPATH));
         private IWebElement InnerChapter => webDriver.FindElement(By.XPath(INNER_CHAPTER_XPATH));
@@ -30,11 +30,16 @@ namespace MetanitPageTest
             Chapter.Click();
         }
 
+        public void SelectInnerChapter()
+        {
+            InnerChapter.Click();
+        }
+
         public virtual string GetUrl()
         {
             try
             {
-                string currentUrl = webDriver.Url; 
+                string currentUrl = webDriver.Url;
                 return currentUrl;
             }
             catch (OpenQA.Selenium.WebDriverTimeoutException)
@@ -49,10 +54,29 @@ namespace MetanitPageTest
             return gottenUrl == needUrl;
         }
 
-        public void WaitUntilPageLoaded(int timeout = 15)
+        public void WaitUntilTutorialPageLoaded(int timeout = 10)
         {
             var wait = new WebDriverWait(webDriver, TimeSpan.FromSeconds(timeout));
-            wait.Until(x => InnerChapter.Displayed);
+            wait.Until(drv => Chapter.Displayed);
+        }
+
+        public void WaitUntilInnerPageLoaded(int timeout = 10)
+        {
+            var wait = new WebDriverWait(webDriver, TimeSpan.FromSeconds(timeout));
+            wait.Until(drv => InnerChapter.Displayed);
+        }
+
+        public bool IsInnerChapterVisible()
+        {
+            try
+            {
+                return InnerChapter.Displayed;
+
+            }
+            catch (Exception e)
+            {
+                return false;
+            }
         }
     }
 }

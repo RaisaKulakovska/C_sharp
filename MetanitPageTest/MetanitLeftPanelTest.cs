@@ -15,22 +15,26 @@ namespace MetanitPageTest
         {
             browser = new ChromeDriver();
             const string METANIT_PAGE_URL = "https://metanit.com/sharp/tutorial/";
-            browser.Navigate().GoToUrl(METANIT_PAGE_URL);            
-            browser.Manage().Window.Maximize();
+            browser.Navigate().GoToUrl(METANIT_PAGE_URL);
             metanitPageObject = new MetanitPageObject(browser);
+            metanitPageObject.WaitUntilTutorialPageLoaded();
+            browser.Manage().Window.Maximize();
+            
         }
 
         [Test]
         [TestCase("https://metanit.com/sharp/tutorial/5.5.php")]
-        public void VerifyUrl(string url)
+        public void VerifyUrl(string expectedUrl)
         {
             // Act
             metanitPageObject.SelectChapter();
-            metanitPageObject.WaitUntilPageLoaded();
-            bool isRightUrl = metanitPageObject.IsRightUrl(url);
+            metanitPageObject.SelectInnerChapter();
+            metanitPageObject.WaitUntilInnerPageLoaded();
+            var actualUrl = metanitPageObject.GetUrl();
+            //bool isRightUrl = metanitPageObject.IsRightUrl(url);
 
             // Assert
-            Assert.True(isRightUrl, "Chapter isn't pressed, url is wrong");
+            Assert.AreEqual(expectedUrl, actualUrl);
         }    
 
         /*[TearDown]

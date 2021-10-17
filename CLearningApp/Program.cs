@@ -72,6 +72,7 @@ namespace CLearningApp
             var file = File.OpenWrite(FilePath);
             StreamWriter fileStream = new StreamWriter(file);
             fileStream.WriteLine($"{ent.GetName()}, {ent.GetJob()}, {ent.GetEmail()}");
+            fileStream.WriteLine($"{ent.GetName()}, {ent.GetJob()}, {ent.GetEmail()}");
             fileStream.Flush();
             fileStream.Close();
             file.Close();
