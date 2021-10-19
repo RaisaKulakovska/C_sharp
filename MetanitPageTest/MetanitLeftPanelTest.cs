@@ -37,10 +37,10 @@ namespace MetanitPageTest
             Assert.AreEqual(expectedUrl, actualUrl);
         }    
 
-        /*[TearDown]
+        //[TearDown]
         public void TearDown()
         {
             browser.Quit();
-        }*/
+        }
     }
 }
